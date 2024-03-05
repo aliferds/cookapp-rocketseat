@@ -3,10 +3,10 @@ import { ScrollView } from "react-native"
 import { services } from "@/services"
 
 import { styles } from "./styles"
-import Ingredient, { IngredientProps } from "@/components/Ingredient"
+import Ingredient, { IngredientsProps } from "@/components/Ingredient"
 
 type Props = {
-  ingredients: IngredientProps[]
+  ingredients: IngredientsProps[]
 }
 
 export function Ingredients({ ingredients }: Props) {
